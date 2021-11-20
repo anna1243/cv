@@ -1,12 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="google" content="notranslate" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <title>CV Platon Chuhlancev</title>
+
 </head>
+
 <body>
-    <h1>qwe</h1>
+    <div class="container">
+
+        <header class="header"> CV </header>
+
+        <div class="profile">
+            <div class="name">
+                <h1 class="item__name">Anna Toropova</h1>
+                <div class="item__profession">QA engineer</div>
+            </div>
+
+            <figure class="item__photo">
+                <!-- заменишь фотографию, переименуюешь с таким же именем файла photo.jpg -->
+                <img class="photo" src="img/photo.jpg" alt="avatar">
+            </figure>
+        </div>
+
+        <div class="about">
+            Добавь свое описание <br>
+            <br>
+            "Hi! My name is Platon and I am a junior front-end developer. I like to find ways to solve difficult and
+            interesting problems, and watch them come to life. I was hooked on translating ideas from my head into a
+            visual form with the help of code. Therefore, from the beginning of 2021, I started to study Front-end web
+            development."
+        </div>
+
+        <main class="info">
+
+            <section class="contact">
+
+                <h2>Contact</h2>
+                <div class="contact__inner">
+                    <div class="contact__item">
+                        <img class="image_contact" src="img/icons/whatsapp.svg" alt="whatsapp">
+                        <img class="image_contact" src="img/icons/telegram.svg" alt="telegram">
+                        <div class=item>
+                            <a class="contact__link" href="tel:+79827911160">+7 (989) 167 18 06</a>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <img class="image_mail" src="img/icons/mail.svg" alt="mail">
+                        <div class=item>
+                            <a class="contact__link"
+                                href="mailto:toropova_anna@outlook.com">toropova_anna@outlook.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Education</h2>
+                <ul>
+                    <li class="education__item">Sarapul College of Mechanical Engineering and Information Technology,
+                        radio engineering faculty graduated in 2012 (full-time education).</li>
+                    <li class="education__item">Software tester august 2021(GeekBrains)</li>
+                    <li class="education__item">git december 2021(GeekBrains)</li>
+                    <li class="education__item">SQL december 2021(GeekBrains)</li>
+                    <li class="education__item">SQL december 2021(GeekBrains)</li>
+                    <!-- сюда можешь добавлять новые курсы по аналогии с теми что выше -->
+                    <a href="https://raw.githubusercontent.com/sk8-pl/anna_cv/main/sertificate.jpg" target="_blank">
+                        <div class="image_sertificate"></div>
+                    </a>
+
+                </ul>
+
+            </section>
+
+            <section class="skills">
+                <h2>Hard skills</h2>
+                <ul class="skills__inner">
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/postman.png" width="40" height="40" alt="Postman">
+                            <div class=item>Postman</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/jira.png" width="40" height="40" alt="Jira">
+                            <div class=item>Jira</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/fiddler.png" width="40" height="40" alt="Fiddler"
+                                style="filter: grayscale(100%);">
+                            <div class=item>Fiddler</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/git.svg" width="50" height="50" alt="git">
+                            <div class=item>git</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/figma.svg" width="40" height="40" alt="Figma">
+                            <div class=item>Figma</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/PS.svg" width="40" height="40" alt="PhotoShop">
+                            <div class=item>PhotoShop</div>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <h2>Soft skills</h2>
+                <ul class="skills__inner">
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/flexibility.svg" width="40" height="40"
+                                alt="flexibility">
+                            <div class=item>Flexibility</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/self-study.svg" width="40" height="40"
+                                alt="self-study">
+                            <div class=item>Self-study</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/time-managment.svg" width="40" height="40"
+                                alt="time-managment">
+                            <div class=item>Time-managment</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="skill__item">
+                            <img class="image_mail" src="img/icons/english.svg" width="40" height="40"
+                                alt="English lvl">
+                            <div class=item>English level A2</div>
+                            <!-- уровень английского потом поправишь если нужно будет -->
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+
+        </main>
+
+
+
+
+        <footer class="footer">
+            <a href="https://github.com/anna1243" target="_blank">
+                <img src="img/icons/github__footer.svg" width="50" height="50" alt="my GitHub">
+            </a>
+
+            <p class="created__date">created in december 2021</p>
+        </footer>
+
+    </div>
+
 </body>
+
 </html>
